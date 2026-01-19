@@ -3,6 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .nav-container{
     display: flex;
@@ -257,6 +262,7 @@ background-color: transparent;
     padding: 140px 30px;
     
     color: #FFFFFF;
+    margin-bottom: 0;
 
 }
 
@@ -436,6 +442,95 @@ background-color: transparent;
 }
 
 
+/* 3য় সেকশন */
+/* 3য় সেকশন */
+.therd-section{
+    background-color: #1A0B2E;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     font-family: "Inter", sans-serif;
+    padding: 120px 200px 120px 200px;
+}
+
+.therd-section .h1{
+    font-size: 48px;
+   font-weight: 700;
+   color: #FFFFFF;
+   text-align: center;
+}
+.video-container{
+    width: 1200px;
+    height: 538px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+   
+}
+.video{
+    width: 380px;
+    height: 440px;
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    
+}
+.ifrem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /* width: 380px;
+    height: 214px; */
+    margin-top: 0;
+}
+.video iframe{
+    width: 380px;
+    height: 214px;
+}
+.video h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.video p{
+    font-size: 16px;
+   font-weight: 400;
+   color: #ffffff89;
+}
+.clock{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -597,6 +692,12 @@ background-color: transparent;
     grid-column: 1;
     grid-row: 1;
 }
+
+/* 3য় সেকশন */
+/* 3য় সেকশন */
+
+
+
 
 }
 
