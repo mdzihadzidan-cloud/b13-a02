@@ -516,9 +516,58 @@ background-color: transparent;
     gap: 10px;
 }
 
+/* শেষ সেকশন */
+/* শেষ সেকশন */
+/* শেষ সেকশন */
+.last-container{
+    background-color: #1A0B2E;
+    padding: 120px 200px 120px 200px;
+}
 
+.last-container h1{
+    font-size: 48px;
+   font-weight: 700;
+   color: #FFFFFF;
+   font-family: "Inter", sans-serif;
+   text-align: center;
+}
+.extra{
+    width: 1200px;
+    height: 280px;
+    background-color: #250D44;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    padding: 40px;
+    gap: 20px;
+}
+.text-extra{
+  
 
+}
+.text-extra h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+   font-family: "Inter", sans-serif;
+ 
+}
+.text-extra p{
+    width: 896px;
+   height: 72px;
+   color: #ffffff9a;
+}
+.text-extra img{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    padding: 12px 12px;
+}
 
+/* ফুটার */
+/* ফুটার */
 
 
 
