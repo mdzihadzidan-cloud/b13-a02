@@ -243,9 +243,197 @@ background-color: transparent;
     font-weight: 400;
 }
 
+/* দ্বিতীয় সেকশন  */
+/* দ্বিতীয় সেকশন */
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #230E3D;
+    font-family: "Inter", sans-serif;
+    padding: 140px 30px;
+    
+    color: #FFFFFF;
+
+}
+
+.second-container h1{
+    font-size: 48px;
+    width: 800;
+}
+.grid-box{
+    
+    
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 738px;
+    display: grid;
+    gap: 25px;
+   text-align: left;
+   justify-content: center;
+   
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0px 200px;
+    /* border: 2px solid red;    */
+    
+}
+.box1{
+    
+    border-radius: 40px;
+    background-color: #3511657c;
+    box-shadow: 20px;
+    /* border: 2px solid red; */
+    padding: 20px;
+    
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+   
+   
+
+
+}
+.box1 img{
+    width: 60px;
+    height: 60px;
+   
+
+}
+.box1 h3{
+    font-size: 24px;
+    width: 800;
+
+}
+.box1 p{
+    font-size: 16px;
+    width: 400;
+
+}
+
+
+.box2{
+   
+    border-radius: 40px;
+     background-color: #3511657a;
+     grid-column: 2 / span 3;
+    box-shadow: 20px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    
+}
+
+.box2 img{
+    width: 60px;
+    height: 60px;  
+
+}
+.box2 h3{
+     font-size: 24px;
+    width: 800;
+
+}
+.box2 p{
+    font-size: 16px;
+    width: 400;
+    
+}
 
 
 
+.box3{
+   
+    border-radius: 40px;
+     background-color: #35116577;
+    box-shadow: 20px;
+    grid-row: 2;
+    grid-column: 2 / span 3;
+    padding: 20px;
+    /* border: 2px solid red; */
+
+}
+
+.box3 img{
+    width: 60px;
+   height: 60px;
+
+}
+.box3 h3{
+     font-size: 24px;
+    width: 800;
+
+}
+.box3 p{
+    font-size: 16px;
+    width: 400;
+    
+}
+
+.box4{
+   
+    border-radius: 40px;
+     background-color: #35116575;
+    box-shadow: 20px;
+    grid-row: 3;
+    grid-column: 1/ span 2;
+   padding: 20px;
+    /* border: 2px solid red; */
+
+}
+
+.box4 img{
+    width: 60px;
+    height: 60px;
+
+}
+.box4 h3{
+     font-size: 24px;
+    width: 800;
+
+}
+.box4 p{
+    font-size: 16px;
+    width: 400;
+    
+}
+
+
+.box5{
+   
+   border-radius: 40px;
+    background-color: #35116579;
+   box-shadow: 20px;
+   padding: 20px;
+   grid-row: 3;
+   grid-column: 3;
+   /* border: 2px solid red; */
+
+}
+
+.box5 img{
+    width: 60px;
+   height: 60px;
+
+}
+.box5 h3{
+     font-size: 24px;
+    width: 800;
+
+}
+.box5 p{
+    font-size: 16px;
+    width: 400;
+    
+}
 
 
 
@@ -384,11 +572,36 @@ background-color: transparent;
     
  }
 
+/* দ্বিতীয় সেকশন  */
+/* দ্বিতীয় সেকশন */
 
+.grid-box{
+    
+    
+    max-width: auto;
+    width: 100%;
+    margin: 0 auto;
+    /* height: 738px; */
+    display: grid;
+    gap: 25px;
+   text-align: left;
+   justify-content: center;
+   
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin:auto;
+    /* border: 2px solid red;    */
+    
+}
+.box1 .box2 .box3 .box4 .box5{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+}
 
 
 
 
 
     
-}
