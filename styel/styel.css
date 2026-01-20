@@ -53,8 +53,12 @@
     box-shadow: 0 8px 25px rgba(255, 47, 220, 0.4);
    transition: transform 0.2s ease;
     background-color: none;
+    transition: transform 1s;
 
  
+}
+.button:hover{
+    transform: rotate(45deg) scale(1.5);
 }
 
 
@@ -107,6 +111,7 @@
    font-weight: 600;
     right: 800px;
     top: 108px;
+    cursor: pointer;
 
 
 }
@@ -128,8 +133,14 @@
     color: #FFFFFF;
      font-family: "Inter", sans-serif;
      margin:10px;
+     
+  /* font-size: 30px; */
+  /* color: blue; */
 
+  animation: moveText 2s infinite;
 }
+
+
 
 .banner-container .text p{
     font-size: 16px;
@@ -302,8 +313,9 @@ background-color: transparent;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content:center;
+    align-items: start;
+    gap: 15px;
    
    
 
@@ -453,7 +465,7 @@ background-color: transparent;
     align-items: center;
     gap: 40px;
      font-family: "Inter", sans-serif;
-    padding: 120px 200px 120px 200px;
+    /* padding: 120px 200px 120px 200px; */
 }
 
 .therd-section .h1{
@@ -463,7 +475,7 @@ background-color: transparent;
    text-align: center;
 }
 .video-container{
-    width: 1200px;
+    /* width: 1200px; */
     
     margin:0 auto;
     display: flex;
@@ -717,8 +729,8 @@ footer h1 .span1 {
     width: 80px;
     height: 100px;
     position: absolute;
-    top: 120px;
-    left: 50%;
+    top: 110px;
+    left: 43%;
     right: 100px;
     /* transform: translateX(-50%); */
 }
@@ -727,7 +739,7 @@ footer h1 .span1 {
 .gol-btn{
     position: absolute;
     top: 70px;
-    left: 50%;
+    left: 62%;
     right: 200px;
     /* transform: translateX(-50%); */
 }
@@ -775,22 +787,43 @@ footer h1 .span1 {
 
 /* দ্বিতীয় সেকশন  */
 /* দ্বিতীয় সেকশন */
+.second-container{
+    
+    height: 1450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #230E3D;
+    font-family: "Inter", sans-serif;
+    padding: 140px 30px;
+    
+    color: #FFFFFF;
+    margin-bottom: 0;
+    position: relative;
+    
+
+}
 
 .grid-box{
     
     
-    max-width: auto;
+    /* max-width: auto;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; */
     /* height: 738px; */
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 25px;
    text-align: left;
    justify-content: center;
    
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(1,1fr);
-    margin:auto;
+    /* grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr); */
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     /* border: 2px solid red;    */
     
 }
@@ -798,16 +831,195 @@ footer h1 .span1 {
     grid-column: 1;
     grid-row: 1;
 }
+.second-container h1{
+    position: absolute;
+    top: 30px;
+    font-size: 40px;
+    width: 100%;
+}
 
 /* 3য় সেকশন */
 /* 3য় সেকশন */
+
+.therd-section{
+    background-color: #1A0B2E;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 40px;
+     font-family: "Inter", sans-serif;
+    padding: 0;
+}
+.therd-section .h1{
+    font-size: 20px;
+   font-weight: 0px;
+   color: #FFFFFF;
+   text-align: center;
+}
+.video-container{
+    /* width: 1200px; */
+    
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+   
+}
+.video{
+    /* width:576px; */
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
+    padding: 0 24px 15px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    
+}
+.ifrem{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+     /* width: 380px;
+    height: 214px; */
+    margin-top: 0;
+}
+
+/* শেষ সেকশন */
+/* শেষ সেকশন */
+/* শেষ সেকশন */
+
+.last-container{
+    
+    background-color: #1A0B2E;
+    padding: 40px 40px 40px  40px;
+    margin-bottom: 0;
+}
+
+.last-container h1{
+    font-size: 50px;
+   /* font-weight: 700; */
+   color: #FFFFFF;
+   font-family: "Inter", sans-serif;
+   text-align: center;
+}
+.extra{
+     width: 500px;
+     height: 600px;
+    background-color: #250D44;
+    margin: 0 auto;
+    /* margin-bottom: 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 40px;
+    /* padding: 40px; */ 
+    gap: 20px;
+
+padding: 10px 0px 0px 10px;
+}
+.text-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px 2px 30px;
+
+    /* display: flex;
+    flex-direction: column; */
+  
+
+}
+.text-extra h2{
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+   font-family: "Inter", sans-serif;
+ 
+}
+.text-extra p{
+    width: 500px;
+height: 168px;
+   color: #ffffff9a;
+   text-align: center;
+}
+.last-img{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8;
+
+}
+.text-extra img{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    
+    /* padding: 12px 12px; */
+
+    width: 50px;
+height: 50px;
+/* Auto layout */
+
+}
+/* ফুটার ডিজাইন */
+/* ফুটার ডিজাইন */
+
+footer{
+    background-image: url(../assets/footer-bg.png);
+     background-position: center;
+     /* width: 576px; */
+     height: 412px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+}
+
+.footer-div{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2,20px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-div .div1{
+    display: flex;
+    flex-direction: row;
+}
+.footer-div .div1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
 
 
 
 
 }
 
+@keyframes moveText {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(200px);
+  }
 
+}
 
 
 
