@@ -15,6 +15,7 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     background-color: #1A0B2E;
+    padding: 10px 0px ;
 
 }
 .nav-container h1 .span1 {
@@ -112,6 +113,7 @@
     right: 800px;
     top: 108px;
     cursor: pointer;
+    border: none;
 
 
 }
@@ -168,6 +170,7 @@
       background: linear-gradient(135deg, #ff2fdcce, #ffcc70);
       box-shadow: 0 8px 25px rgba(255, 47, 220, 0.4);
       transition: transform 0.2s ease;
+      cursor: pointer;
  }
  .banner-container .text .text-btn .btn-2{
     width: 147px;
@@ -183,6 +186,7 @@ color: #00FF88;
 border-radius: 10000px;
 border: 1px solid #00FF88;
 background-color: transparent;
+cursor: pointer;
  }
 
 
@@ -987,12 +991,14 @@ footer{
 }
 
 .footer-div{
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(2,20px);
+    display:flex;
+    width: 250px;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2,20px); */
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer-div .div1{
